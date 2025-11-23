@@ -4900,3 +4900,46 @@ section:before {
 #about h2 {
     color: #1A2A47 !important;     /* navy titles */
 }
+
+
+
+
+#navPanelToggle,
+body #navPanelToggle,
+#header #navPanelToggle {
+    color: #000000 !important;  /* black normal */
+}
+
+#navPanelToggle:hover,
+body #navPanelToggle:hover,
+#header #navPanelToggle:hover {
+    color: #007bff !important;  /* blue on hover */
+}
+
+
+/* Mobile menu text color fix */
+@media screen and (max-width: 768px) {
+    #nav ul.links li a {
+        color: black !important; /* Makes links visible */
+    }
+    
+    #nav ul.links li a:hover {
+        color: #007BFF !important; /* Optional: change color on hover */
+    }
+}
+
+
+/* Reduce top space above profile picture on mobile */
+@media screen and (max-width: 768px) {
+    #intro {
+        padding-top: 10px !important; /* Reduce the top padding */
+    }
+
+    #intro h2 {
+        font-size: 1.5em; /* Optional: make name smaller on mobile */
+    }
+
+    #intro p {
+        font-size: 1em; /* Optional: adjust text size */
+    }
+}
