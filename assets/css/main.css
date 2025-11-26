@@ -3948,7 +3948,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: #717981;
+		color: black;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4018,7 +4018,7 @@ input, select, textarea {
 			#footer button:hover,
 			#footer .button:hover {
 				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				color: black !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4943,3 +4943,6 @@ body #navPanelToggle:hover,
         font-size: 1em; /* Optional: adjust text size */
     }
 }
+
+
+
